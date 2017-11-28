@@ -1,0 +1,60 @@
+.blockCommon{
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    border:1px solid #ddd;
+    cursor: pointer;
+    color:#48B9EF;
+    padding: 6px 9px;
+    margin-left: 5px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.blockCommon:hover{
+    border: 1px solid #F47005;
+    color: #F47005;
+}
+.firstPage{
+
+}
+.previousPage{
+
+}
+.leftPage{
+
+}
+.listPages{
+
+}
+.rightPage{
+
+}
+.nextPage{
+
+}
+.lastPage{
+
+}
+.blockActive{
+    border: 1px solid #F47005;
+    color: #F47005;
+}
+.blockActive:hover{
+    cursor: default;
+}
+.blockForbidden{
+    cursor: not-allowed;
+    color: #A8D9FF;
+    border-color: #f3f3f3;
+    background-color: #ffffff;
+}
+.blockForbidden:hover{
+    background-color: #ffffff;
+    border-color: #f3f3f3;
+    color: #A8D9FF;
+}
+.blockDisplayNone{
+    display: none;
+}

@@ -1,0 +1,64 @@
+.blockCommon{
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    border:1px solid #FF9600;
+    cursor: pointer;
+    color:#FF6500;
+    padding: 4px 9px;
+    margin-left: 5px;
+    /*background-color: #F67502;*/
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.blockCommon:hover{
+    background-color: #FFBE94;
+    border-color: #F67502;
+    color: #FF6500;
+}
+.firstPage{
+
+}
+.previousPage{
+
+}
+.leftPage{
+
+}
+.listPages{
+
+}
+.rightPage{
+
+}
+.nextPage{
+
+}
+.lastPage{
+
+}
+.blockActive{
+    background-color: #FFBE94;
+    border-color: #F67502;
+    color: #FF6500;
+}
+.blockActive:hover{
+    border-color: #FF6500;
+    cursor: default;
+}
+.blockForbidden{
+    cursor: not-allowed;
+    color: #FFCEA4;
+    border-color: #FFCEA4;
+    background-color: #ffffff;
+}
+.blockForbidden:hover{
+    color: #FFCEA4;
+    border-color: #FFCEA4;
+    background-color: #ffffff;
+}
+.blockDisplayNone{
+    display: none;
+}

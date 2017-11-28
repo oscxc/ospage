@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>instances</title>
+    <link rel="stylesheet" href="../styles/style1.css">
+    <script src="../ospage.min.js"></script>
+</head>
+<body>
+<div id="container" style="margin: 100px;"></div>
+<div id="container2" style="margin: 100px;"></div>
+<script>
+    var page = new ospage(
+        "container", //容器id
+        450,  //总项数
+        function (pageIndex,pageCount,oneSize,allSize) {  //页号改变时触发回调
+            console.log("当前第"+pageIndex+"页，共"+pageCount+"页，每页"+oneSize+"项，共"+allSize+"项");
+        }
+    )
+
+    var page2 = new ospage(
+        "container2", //容器id
+        450,  //总项数
+        function (pageIndex,pageCount,oneSize,allSize) {  //页号改变时触发回调
+            console.log("当前第"+pageIndex+"页，共"+pageCount+"页，每页"+oneSize+"项，共"+allSize+"项");
+        }
+    )
+</script>
+</body>
+</html>
