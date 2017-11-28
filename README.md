@@ -55,9 +55,11 @@ var page = require('ospage');
 
 5、数字方块个数：[`examples/blockcount.html`](https://oscxc.github.io/ospage/examples/blockcount.html)
 
-6、多个实例：[`examples/instances.html`](https://oscxc.github.io/ospage/examples/instances.html)
+6、跳转到指定页：[`examples/skip.html`](https://oscxc.github.io/ospage/examples/skip.html)
 
-7、应用样式：
+7、多个实例：[`examples/instances.html`](https://oscxc.github.io/ospage/examples/instances.html)
+
+8、应用样式：
 
   style1:
 
